@@ -1,0 +1,19 @@
+{
+  "name": "themovie",
+  "version": "1.0.0",
+  "description": "Consumo de API TheMovie para web de peliculas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhondao/TheMovie.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jhondao/TheMovie/issues"
+  },
+  "homepage": "https://github.com/Jhondao/TheMovie#readme"
+}
