@@ -49,7 +49,7 @@ function createCategories(categories, container){
         categoryTitle.appendChild(categoryTitleText);
         categoryContainer.appendChild(categoryTitle);
         categoriesPreviewList.appendChild(categoryContainer);
-    
+        container.appendChild(categoryContainer);
     });
 
 }
@@ -116,6 +116,7 @@ async function getMovieById(id) {
     movieDetailTitle.textContent = movie.title;
     movieDetailDescription.textContent = movie.overview;   
     movieDetailScore.textContent = movie.vote_average;
+    
 
     createCategories(movie.genres, movieDetailCategoriesList);
 }
